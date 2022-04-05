@@ -27,4 +27,4 @@ Laptop and More
 
 <img src="./src/assets/laptop.png"/>
 
-[Demo]()
+[Demo](https://touraye.github.io/note-app/)
