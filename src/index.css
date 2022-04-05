@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ccc;
+  line-height: 1.7;
+}
+
+p {
+  padding: 0 1rem;
+
+}
+
+.note__wrapper {  
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: rgb(245, 245, 245);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.note__form {
+  display: flex;
+  gap: 1rem;  
+  padding: 1rem;
+}
+
+.note__form  input{
+  width: 280px;
+  padding: 0.4rem 0;
+  border: 1px solid #888;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.note__form > button {
+  padding: 0.2rem 2rem;
+  text-transform: uppercase;
+  background-color: green;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid #888;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.note__heading {  
+  text-transform: capitalize;
+  padding: 1rem 1rem 0;
+  font-size: 1.3rem;  
+}
+
+
+.filter__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem 1rem;
+}
+
+.filter__container input {
+  cursor: pointer;
+}
+
+.note__list {
+  padding: 1rem 0;  
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+}
+
+.note__info {
+  font-weight: bold;
+}
+
+.note__item {  
+  padding: 0.7rem 1rem;  
+  border-bottom: 1px solid #ccc;
+  transition: all 3sec ease-in-out;
+  -webkit-transition: all 3sec ease-in-out;
+  -moz-transition: all 3sec ease-in-out;
+  -ms-transition: all 3sec ease-in-out;
+  -o-transition: all 3sec ease-in-out;
+}
+
+.note__item:nth-child(1) {
+  border-top: 1px solid #ccc;
+}
+
+.note__item:hover {
+  cursor: pointer;  
+  color: #555;
+}
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.link {
+  color: #ccc;  
+}
+
+.link:hover {
+  color: #888;
+}
